@@ -1,0 +1,104 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+form input {
+  margin-bottom: 10px;
+}
+
+form button {
+  display: block;
+  width: 100%;
+}
+.contact-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact-item {
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-item:hover {
+  background-color: yellow;
+}
+.contact-details {
+  transition: transform 0.3s;
+}
+
+.contact-details:hover {
+  transform: scale(1.05);
+}
+.contact-details button {
+  margin: 5px;
+}
+.navbar, .header, .footer {
+  background-color: red !important;
+  padding: 20px;
+}
+
+.navbar-brand, .header .navbar-brand {
+  color: white !important;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+}
+
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: background-color 0.3s;
+  position: relative;
+}
+
+.collapsible:hover {
+  background-color: #ccc;
+}
+
+.collapse-button {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+
+.footer-logo {
+  max-width: 100px;
+  height: auto;
+}
