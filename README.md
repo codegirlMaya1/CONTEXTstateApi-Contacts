@@ -1,1 +1,1 @@
-# CONTEXTstateApi-Contacts
+# CONTEXTstateApi-Contacts This is a contact management app it the components are shared throughout the app. There is also a product list. Users can select from the added contacts and products and send emails to the contacts about new products. App is deployed via netlify https://67097a66e05446387ac30db6--stately-froyo-c20485.netlify.app/
